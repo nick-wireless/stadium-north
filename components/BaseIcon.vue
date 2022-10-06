@@ -1,9 +1,9 @@
 <template>
   <div class=" flex items-center ">
-    <div class=" my-2 p-[4px]  w-10 h-10 text-current drop-shadow-lg ">
+    <div class=" pt-2  w-8 h-8 text-current drop-shadow-lg ">
       <slot></slot>
     </div>
-    <span class=" pl-2 ">{{ iconName }}</span>
+    <span class=" pl-3 pt-4 ">{{ iconName }}</span>
   </div>
 </template>
 
