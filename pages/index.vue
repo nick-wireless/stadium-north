@@ -1,5 +1,11 @@
 <template>
-  <h1 class=" font-bold ">Hi from Index page within Pages director.</h1>
+  <!-- Hero image, Hero copy. -->
+  <nuxt-layout>
+    <section class=" relative ">
+      <hero-image class=" absolute "/>
+      <hero-copy class=" absolute " />
+    </section>
+  </nuxt-layout>
 </template>
 
 <script>
