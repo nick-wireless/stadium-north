@@ -5,6 +5,9 @@
       <hero-image class=" absolute "/>
       <hero-copy class=" absolute " />
     </section>
+    <section>
+      <promotion-items></promotion-items>
+    </section>
   </nuxt-layout>
 </template>
 
