@@ -1,5 +1,4 @@
 <template>
-  <!-- Hero image, Hero copy. -->
   <nuxt-layout>
     <section class=" relative ">
       <hero-image class=" absolute "/>

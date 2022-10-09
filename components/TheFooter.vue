@@ -7,8 +7,8 @@
       </div>
     </section>
   <nuxt-layout name="inset-text">
-      <div class="mx-auto  px-4 sm:px-6 lg:py-16 lg:px-8 pb-12 ">
-        <div class="py-12 xl:grid xl:grid-cols-3 xl:gap-8">
+      <div class="mx-auto px-4 sm:px-6 lg:py-12 lg:px-8 pb-12 ">
+        <div class="py-12 xl:grid xl:grid-cols-2 xl:gap-8">
           <div class="grid grid-cols-2 gap-8 xl:col-span-2">
             <div class="md:grid md:grid-cols-2 md:gap-8">
               <div>
