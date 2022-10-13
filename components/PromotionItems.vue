@@ -2,8 +2,11 @@
   <div class=" grid grid-cols-1 md:grid-cols-3 ">
     <div id="Community" class=" minimum-one-third background-one ">
       <nuxt-layout name="inset-text">
-        <div class=" pt-4 pl-4 font-bold leading-8 tracking-widest text-sm text-stone-100">
-          COMMUNITY
+        <div class=" pt-4 font-bold leading-8 tracking-widest text-sm text-stone-100">
+          <div>
+            <icons-community class=" h-6 -mt-1 inline-block text-stone-100 "></icons-community>
+            <span class=" m-2 ">COMMUNITY</span>
+          </div>
         </div>
         <div class=" flex flex-col justify-center items-center text-center font-bold italic leading-8 tracking-widest text-lg text-stone-100 ">
           <div class=" mt-8 ">
@@ -14,9 +17,12 @@
     </div>
     <div id="Announcements" class=" minimum-one-third background-two ">
       <nuxt-layout name="inset-text">
-        <div class=" pt-4 pl-4 font-bold leading-8 tracking-widest text-sm text-stone-100">
-          ANNOUNCEMENTS
-        </div>
+        <div class=" pt-4 font-bold leading-8 tracking-widest text-sm text-stone-100">
+          <div>
+            <icons-announcement class=" h-6 -mt-1 inline-block text-stone-100 "></icons-announcement>
+            <span class=" m-2 ">ANNOUNCEMENTS</span>
+          </div>
+        </div>        
         <div
           class=" flex flex-col justify-center items-center text-center font-bold italic leading-8 tracking-widest text-lg text-stone-100 ">
           <div class=" mt-8 ">
@@ -27,8 +33,11 @@
     </div>
     <div id="Process" class=" minimum-one-third background-three ">
       <nuxt-layout name="inset-text">
-        <div class=" pt-4 pl-4 font-bold leading-8 tracking-widest text-sm text-stone-100">
-          PROCESS
+        <div class=" pt-4 font-bold leading-8 tracking-widest text-sm text-stone-100">
+          <div>
+            <icons-process class=" h-6 -mt-1 inline-block text-stone-100"></icons-process>
+            <span class=" m-2 ">PROCESS</span>
+          </div>
         </div>
         <div
           class=" flex flex-col justify-center items-center text-center font-bold italic leading-8 tracking-widest text-lg text-stone-100 ">
