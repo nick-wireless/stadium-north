@@ -4,8 +4,11 @@
       <hero-image class=" absolute "/>
       <hero-copy class=" absolute " />
     </section>
-    <section>
+    <!-- <section>
       <promotion-items></promotion-items>
+    </section> -->
+    <section>
+      <our-offering></our-offering>
     </section>
   </nuxt-layout>
 </template>
