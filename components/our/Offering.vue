@@ -19,7 +19,6 @@
           country like no other. We are ready. Ready to welcome you on Larrakia land.
         </p> 
       </div>
-     
     </template>
   </nuxt-layout>
 </template>

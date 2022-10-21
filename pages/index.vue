@@ -10,6 +10,9 @@
     <section>
       <our-offering></our-offering>
     </section>
+    <section> 
+      <our-why></our-why>
+    </section>
   </nuxt-layout>
 </template>
 
