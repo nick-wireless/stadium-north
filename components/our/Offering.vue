@@ -20,5 +20,21 @@
         </p> 
       </div>
     </template>
+    <template #footer>
+      <p class=" italic text-teal-700 ">Join your support for our mission here</p>
+      <button class="block xs:inline-block ">
+        <div class=" flex items-center py-1 px-1 flex-none rounded border-2 border-slate-400 text-gray-700  hover:text-white hover:bg-slate-400 ">
+          <span class=" pl-2 font-normal tracking-wider ">Membership signup</span>
+          <icons-right class=" h-7 w-7 "></icons-right>
+        </div>
+      </button>
+      <button class=" block xs:inline-block mt-6 w-[204px] mx-6 ">
+        <div
+          class=" flex items-center py-1 px-1 flex-none rounded border-slate-400 text-gray-700  hover:text-white hover:bg-slate-400 ">
+          <span class=" pl-2 font-normal tracking-wider ">Newsletter signup</span>
+          <icons-right class=" h-7 w-7 "></icons-right>
+        </div>
+      </button>
+    </template>
   </nuxt-layout>
 </template>
