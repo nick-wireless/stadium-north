@@ -19,7 +19,7 @@
               </ul>
             </div>
             <div class="mt-12 md:mt-0">
-              <h3 class="text-base font-medium text-white">Support</h3>
+              <h3 class="text-base font-medium text-white">Supporters</h3>
               <ul role="list" class="mt-4 space-y-4">
                 <li v-for="item in navigation.support" :key="item.name">
                   <a :href="item.href" class="text-base text-gray-300 hover:text-white">{{ item.name }}</a>
@@ -86,6 +86,7 @@ const navigation = {
     { name: 'Partners', href: '#' },
     { name: 'Careers', href: '#' },
     { name: 'Press', href: '#' },
+    { name: 'Sponsorship', href: '#' },
   ],
   support: [
     { name: 'Announcements', href: '#' },
@@ -99,7 +100,6 @@ const navigation = {
     { name: 'Sports 2050 Plan', href: '#' },
     { name: 'Site Selection', href: '#' },
     { name: 'Designs', href: '#' },
-    { name: 'Partners', href: '#' },
     { name: 'Development', href: '#' },
   ],
   platform: [

@@ -8,6 +8,9 @@
       <promotion-items></promotion-items>
     </section> -->
     <section>
+      <join-our-cause></join-our-cause>
+    </section>
+    <section>
       <our-offering></our-offering>
     </section>
     <section> 

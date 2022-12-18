@@ -1,5 +1,5 @@
 <template>
-  <div class=" bg-sky-200 ">
+  <div class=" bg-white ">
     <!-- Considering slate for primary dark background. -->
     <TheHeader />
       <slot></slot>

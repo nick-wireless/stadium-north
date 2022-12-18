@@ -1,5 +1,5 @@
 <template>
-  <nuxt-layout name="section-copy" class=" pb-16 ">
+  <nuxt-layout name="section-copy" class=" pb-16 bg-blue-100 ">
     <template #header> 
       <nuxt-layout name="section-heading" >
         <template #subHeading>A stage for the Territory</template>
