@@ -14,7 +14,7 @@
               <h3 class="text-base font-medium text-white">About</h3>
               <ul role="list" class="mt-4 space-y-4">
                 <li v-for="item in navigation.about" :key="item.name">
-                  <a :href="item.href" class="text-base text-gray-300 hover:text-white">{{ item.name }}</a>
+                  <nuxt-link :to="item.href" class="text-base text-gray-300 hover:text-white">{{ item.name }}</nuxt-link>
                 </li>
               </ul>
             </div>
@@ -70,7 +70,7 @@
           <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
         </a>
       </div>
-      <p class="pt-8 text-base text-gray-400 md:order-1 md:mt-0 mr-4 ">TLDR & Summary: Australia's Darwin city's plan for a world class stadium.</p>
+      <p class="pt-8 text-base text-gray-400 md:order-1 md:mt-0 mr-4 ">TLDR & Summary: Australia's Darwin city plan for a world class stadium.</p>
       <p class="pt-8 text-base text-gray-400 md:order-1 md:mt-0">&copy; 2023 Stadiums North Australia. All rights reserved.</p>
       </div>
     </div>
@@ -82,7 +82,7 @@ import { defineComponent, h } from 'vue'
 
 const navigation = {
   about: [
-    { name: 'About', href: '#' },
+    { name: 'About', href: '/company' },
     { name: 'Partners', href: '#' },
     { name: 'Careers', href: '#' },
     { name: 'Press', href: '#' },
